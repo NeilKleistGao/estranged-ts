@@ -28,7 +28,7 @@ export class Transformer {
         }
       }
     }
-  
+    
     return ts.factory.updateSourceFile(p_sf, statements);
   }
 
