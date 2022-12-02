@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2016",
+    "module": "commonjs",
+    "removeComments": true,
+    "outDir": "javascript",
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "importsNotUsedAsValues": "preserve",
+    "plugins": [
+      { "transform": "../dist" }
+    ]
+  },
+  "include": ["typescript"]
+}

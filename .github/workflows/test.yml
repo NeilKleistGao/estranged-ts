@@ -17,6 +17,8 @@ jobs:
         node-version: '17.x'
     - name: install libraries
       run: npm install
+    - name: run build
+      run: npm run build
     - name: run tests
       run: npm run test
     - name: check update
